@@ -3,61 +3,60 @@
 body{
     background:url(/dawn-space-rising-sun-behind-earth-vector-background-99034581.jpg);
     margin: 0;
-}
-.intro{
-    background-color: #495057;
-    height: 100px;
-    border: 3px solid #0096c7;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius:8px;
-    margin-bottom: 15px;
-    /* position: fixed; */
-    /* overflow: hidden; */
-}
-
-.intro-content{
-    color: linen;
-    display: flex;
-    justify-content: center;
-    margin-top: 33px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 55%;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 3rem;
 }
 
-/* textarea{
-} */
+.intro{
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+.elements{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#dateIn{
+    width: 100%;
+    padding: 8px;
+}
 
 #click
 {
-    background-color: #72726e;
+    background-color: #6cadf8;
     /* border: 2px solid limegreen; */
-    padding: 15px;
+    padding: 5px;
     cursor: pointer;
-    width: 315px;
+    width: 100%;
     border: 1px solid rgb(7, 7, 7);
     border-radius: 6px;
-    color: linen;
-    font-size: larger;
+    color: white;
+    font-size:larger;
     text-align: center;
 }
 
 .foot{
-    border: 3px solid #0096c7;
-    border-top-left-radius:8px;
-    border-top-right-radius:8px;
-    position: fixed;
-
-    bottom: 0;
-    width: 100%;
-    background-color: #495057;
-    text-align: center;
+    text-align: justify;
     color: linen;
-    font-family: 'Rajdhani', sans-serif;
  }
 
